@@ -1,0 +1,91 @@
+/* 
+Creator: Kathleen Flynn
+Class: ITWS 4500 Web Science Systems Development
+Instructor: Professor Plotka
+File Name: tweetticker.css
+Purpose: .css for Lab 1
+Last Modified: 11 February 2015
+*/
+
+
+
+#logo {
+  height: 300px;
+  width: 385px; 
+  position: absolute;
+  z-index: 100;
+  top: 20px; 
+  left: 5px;
+}
+  
+#background {
+    opacity: 0.65;
+ }
+ 
+#heading {
+  color: #660066; 
+  z-index: 200; 
+  position: absolute; 
+  margin: 40px 0 0 550px;  
+  padding: 20px 20px 20px 20px; 
+  border-radius: 25px; 
+  font-family: "Garamond", Georgia, Serif;
+  top: 20px;
+  font-size: 500%;
+  background-color: #B2B2CC; 
+}
+
+#tweetlist {
+  z-index: 300; 
+  position: absolute; 
+  top: 180px; 
+  margin-left: 375px; 
+  list-style-type: none; 
+  width: 500px; 
+}
+
+#tweetitems {
+  color: white; 
+  font-family: "Garamond", Georgia, Serif;
+  font-size: 105%; 
+  background-color: #8A2E8A; 
+  margin: 15px 0 15px 0; 
+  padding: 20px 5px 20px 5px;
+  border-radius: 15px;   
+}
+
+#hashitems {
+  color: #751947; 
+  font-family: "Garamond", Georgia, Serif;
+  font-size: 105%; 
+  background-color: #E6FFE6; 
+  margin: 15px 0 15px 0; 
+  padding: 20px 5px 20px 5px; 
+  border-radius: 15px; 
+}
+
+#hashtaglist {
+  z-index: 300; 
+  position: absolute; 
+  top: 180px; 
+  margin-left: 925px; 
+  list-style-type: none; 
+  width: 500px; 
+}
+
+p {
+  margin: 0px; 
+  padding: 0px;  
+}
+
+#text {
+  font-family: Sans-Serif;
+}
+
+#sidebar {
+  z-index: 500; 
+  position: absolute; 
+  top: 350px; 
+  left: 25px;
+  border-radius: 15px;
+}

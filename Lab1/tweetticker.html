@@ -1,0 +1,38 @@
+<!-- 
+Creator: Kathleen Flynn
+Class: ITWS 4500: Web Science Systems Development
+Instructor: Professor Plotka
+File Name: tweetticker.html
+Purpose: HTML file for Lab 1
+Last Modified: 11 February 2015
+-->
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+
+    <title>Lab 1: HTML5, CSS3, JS</title>
+    <link rel="shortcut icon" href="Resources/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="Resources/favicon.ico" type="image/x-icon">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    
+    <link rel="stylesheet" type="text/css" href="tweetticker.css"></link>
+    
+  </head>
+  
+  <body> 
+    <img src="Resources/background.jpg" alt="Background Image" id="background" width="1570" height="780">
+    <a href="https://twitter.com/kathfly" target="_blank"><img src="Resources/sidebar.jpg" alt="Twitter Account info" id="sidebar"></a>
+    <a id="site" href="#"><img id="logo" src="Resources/birdlogo.png"/></a>
+    
+    <h1 id="heading"> Tweet Ticker </h1>
+    
+    <ul id="tweetlist"></ul>
+    <ul id="hashtaglist"></ul> 
+
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="tweets.js"></script>
+  </body>
+</html>

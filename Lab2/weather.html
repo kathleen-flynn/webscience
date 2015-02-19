@@ -1,0 +1,56 @@
+<!-- 
+Creator: Kathleen Flynn
+Class: ITWS 4500: Web Science Systems Development
+Instructor: Professor Plotka
+File Name: weather.html
+Purpose: HTML file for Lab 2
+Last Modified: 19 February 2015
+-->
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+
+    <title>Weather Or Not</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="Resources/css/bootstrap.min.css"></link>
+    <link rel="stylesheet" type="text/css" href="Resources/css/bootstrap.css"></link>
+    <!-- In the future, I hope to gain a better understanding of which files to include.  -->
+    <!-- <link rel="stylesheet" type="text/css" href="Resources/css/bootstrap-theme.css"></link>
+    <link rel="stylesheet" type="text/css" href="Resources/css/bootstrap-theme.min.css"></link> -->
+    
+    <!-- Additional CSS file.  -->
+    <link rel="stylesheet" type="text/css" href="Resources/weather.css"></link>
+    
+    <!-- Favicon resources. -->
+    <link rel="shortcut icon" href="Resources/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="Resources/favicon.ico" type="image/x-icon">
+    
+  </head>
+  
+  <body>
+   <nav class="navbar navbar-default">
+    <div class="navbar-header"> Weather Or Not</div>
+   </nav>
+   <div class="well" id="weatherinfo">
+      <ul class = "list-group">
+        <li class="list-group-item" id="cityname"></li>
+        <li class="list-group-item" id="description"></li>
+        <li class="list-group-item" id="windspeed"></li>
+        <li class="list-group-item" id="humidity"></li>
+        <li class="list-group-item" id="icon"></li>
+        <li class="list-group-item" id="temperature"></li>
+      </ul>       
+   </div> 
+   <footer class="footer">
+      <div class="container">
+        <p> Developed by <a href="http://www.linkedin.com/in/khflynn"> Kathleen Flynn </a> :: <a href="http://openweathermap.org/api"> OpenWeatherMap API </a> :: <a href="http://www.rpi.edu/dept/IT/"> ITWS @ RPI </a>- Web Science Systems Development</p>
+      </div>
+   </footer>
+    
+    <!-- JavaScript files needed. -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="weather.js"></script>
+    <script src="Resources/js/bootstrap.min.js"></script>
+  </body>
+</html>

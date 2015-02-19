@@ -1,0 +1,99 @@
+/* 
+Creator: Kathleen Flynn
+Class: ITWS 4500: Web Science Systems Development
+Instructor: Professor Plotka
+File Name: weather.css
+Purpose: CSS file for Lab 2
+Last Modified: 19 February 2015
+*/
+
+body {
+  background-image: url("background.jpg"); 
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+}
+
+p {
+  color: #000066; 
+  font-weight: bold; 
+}
+
+#cityname {
+  font-size: 185%;
+  font-weight: bold; 
+  color: #B22400;
+  -webkit-animation: myfirst 5s;
+  animation: myfirst 5s;
+}
+
+#temperature {
+  font-size: 200%;
+  font-weight: bold; 
+  -webkit-animation: mythird 7s;
+  animation: mythird 7s;
+}
+
+#description, #windspeed, #humidity {
+  font-size: 125%; 
+}
+
+/* unvisited link */
+a:link {
+    color: #003D00;
+}
+
+/* visited link */
+a:visited {
+    color: #003D00;
+}
+
+/* mouse over link */
+a:hover {
+    color: #2952A3;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    from {color: #B22400;}
+    to {color: #000066;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+    from {color: #B22400;}
+    to {color: #000066;}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mysecond {
+    0%   {background:#666699; left:0px; top:0px;}
+    25%  {background:#3366CC; left:50px; top:0px;}
+    50%  {background:#000029; left:50px; top:50px;}
+    75%  {background:#293D66; left:0px; top:50px;}
+    100% {background:#0047B2; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes mysecond {
+    0%   {background:#666699; left:0px; top:0px;}
+    25%  {background:#3366CC; left:50px; top:0px;}
+    50%  {background:#000029; left:50px; top:50px;}
+    75%  {background:#293D66; left:0px; top:50px;}
+    100% {background:#666699; left:0px; top:0px;}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mythird {
+    from {font-size: 200%;}
+    to {font-size: 300%;}
+}
+
+/* Standard syntax */
+@keyframes mythird {
+    from {font-size: 200%;}
+    to {font-size: 300%;}
+}
